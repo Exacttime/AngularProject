@@ -2,6 +2,20 @@ ion-menu-button {
   color: var(--ion-color-primary);
 }
 
+ion-card{
+  max-width: 50%;
+}
+ion-card:hover{
+  background-color: yellow;
+}
+
+.image-rounded{
+  border-radius: 10px;
+}
+img{
+  max-width:100%;
+}
+
 #container {
   text-align: center;
   position: absolute;
