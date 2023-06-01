@@ -3,15 +3,22 @@ ion-menu-button {
 }
 
 ion-card{
-  max-width: 50%;
+  max-width: 80%;
 }
+
+ion-col{
+  display: flex;
+  justify-content: center;
+}
+
 ion-card:hover{
   background-color: yellow;
 }
 
 .image-rounded{
-  border-radius: 10px;
+  border-radius: 3px;
 }
+
 img{
   max-width:100%;
 }
