@@ -14,9 +14,3 @@ export class FolderPage implements OnInit {
     this.folder = this.activatedRoute.snapshot.paramMap.get('id') as string;
   }
 }
-export class CardItem {
-  public Tittle!: string;
-  public Content!: string;
-  private likes!: number;
-  constructor(){}
-}
