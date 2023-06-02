@@ -1,16 +1,6 @@
 ion-menu-button {
   color: var(--ion-color-primary);
 }
-
-ion-card{
-  max-width: 80%;
-}
-
-ion-card:hover{
-  background-color:chocolate;
-  transform: scale(1.10);
-}
-
 ion-col{
   display: flex;
   justify-content: center;

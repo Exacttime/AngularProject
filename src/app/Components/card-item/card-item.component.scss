@@ -1,0 +1,20 @@
+ion-card{
+  max-width: 80%;
+}
+
+ion-card:hover{
+  background-color:chocolate;
+  transform: scale(1.10);
+}
+button{
+  width: auto;
+  height: auto;
+  background-color: transparent;
+}
+.image-rounded{
+  border-radius: 3px;
+}
+
+img{
+  max-width:100%;
+}
