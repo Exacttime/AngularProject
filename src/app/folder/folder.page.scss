@@ -6,15 +6,20 @@ ion-card{
   max-width: 80%;
 }
 
+ion-card:hover{
+  background-color: yellow;
+}
+
 ion-col{
   display: flex;
   justify-content: center;
 }
 
-ion-card:hover{
-  background-color: yellow;
+button{
+  width: auto;
+  height: auto;
+  background-color: transparent;
 }
-
 .image-rounded{
   border-radius: 3px;
 }
