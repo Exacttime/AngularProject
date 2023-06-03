@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { RecipepageComponent } from './pages/recipepage/recipepage.component';
 import { RecipePageModule } from './pages/recipepage/recipe-page.module';
 import { ComponentsModule } from './Components/components.module';
+import axios from 'axios';
 
 @NgModule({
   declarations: [AppComponent],
