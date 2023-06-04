@@ -1,16 +1,20 @@
-<ion-card class="ion-padding-bottom">
-  <button (click)="getCharacter()" routerLink="/pages/recipepage">
-    <img class="image-rounded" alt="Carbonara Dish Image" src={{this.image}}>
-    <ion-card-header>
-      <ion-card-subtitle>
-        {{this.id}}
-      </ion-card-subtitle>
-      <ion-card-title>
-        {{this.name}}
-      </ion-card-title>
-    </ion-card-header>
-    <ion-card-content>
-      {{this.content}}
-    </ion-card-content>
-  </button>
-</ion-card>
+<div *ngFor="let instancia of instancias">
+  <ion-card class="ion-padding-bottom">
+    <button routerLink="/pages/recipepage">
+      <img class="image-rounded" alt="Carbonara Dish Image" src={{instancia.image}}>
+      <ion-card-header>
+        <ion-card-subtitle>
+          {{instancia.status}}
+        </ion-card-subtitle>
+        <ion-card-title>
+          {{instancia.tittle}}
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        {{instancia.id}}
+        {{instancia.age}}
+        {{instancia.status}}
+      </ion-card-content>
+    </button>
+  </ion-card>
+</div>
