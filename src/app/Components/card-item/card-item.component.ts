@@ -1,5 +1,6 @@
 import { Component, OnInit, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { ApiService } from 'src/app/recipe-api.service';
+import { IonicModule } from '@ionic/angular';
 import { CardClass } from '../CardClass';
 
 @Component({
