@@ -4,8 +4,6 @@ import { RouteReuseStrategy } from '@angular/router';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { RecipepageComponent } from './pages/recipepage/recipepage.component';
-import { RecipePageModule } from './pages/recipepage/recipe-page.module';
 import { ComponentsModule } from './Components/components.module';
 import { HttpClientModule } from '@angular/common/http';
 
