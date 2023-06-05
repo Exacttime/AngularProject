@@ -4,7 +4,9 @@
       <img class="image-rounded" alt="Carbonara Dish Image" src={{instancia.image}}>
       <ion-card-header>
         <ion-card-subtitle>
-          {{instancia.status}}
+          <div style="color: greenyellow;"*ngIf="instancia.status == 'Alive'">Alive</div>
+          <div style="color: red;"*ngIf="instancia.status == 'Dead'">Dead</div>
+          <div style="color: beige;" *ngIf="instancia.status == 'unknown'">Unknown</div>
         </ion-card-subtitle>
         <ion-card-title>
           {{instancia.tittle}}
@@ -13,7 +15,6 @@
       <ion-card-content>
         {{instancia.id}}
         {{instancia.age}}
-        {{instancia.status}}
       </ion-card-content>
     </button>
   </ion-card>
